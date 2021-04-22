@@ -1,0 +1,113 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    margin: 0% auto;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+#cabecera{
+    width: 900px;
+    height: 120px;
+    background-color: white;
+    display: flex;   
+}
+#titulo{
+    width: 500px;
+    font-size: 36px;
+    padding-left: 20px;
+    background-color: rgba(255, 30, 0, 0.932);
+    box-sizing: border-box;
+    padding-top: 30px;
+    color: white;
+}
+#logo{
+    width: 400px;
+    background-color: white;
+}
+main{
+    width: 900px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+}
+aside{
+    width: 315px;
+    height: 450px;
+    background-color: rgb(238, 238, 238);
+}
+section{
+    width: 600px;
+    height: 450px;
+    background-color: white;
+}
+footer{
+    width: 900px;
+    height: 180px;
+    background-color: red;
+}
+.caja{
+    width: 300px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 150px;
+    padding-left: 10px;
+    border: 2px solid gainsboro;
+    color: black;
+}
+.boton{
+    width: 315px;
+    height: 40px;
+    border: 2px solid gainsboro;               
+    margin-top: 25px;
+    background-color: red;
+    color: white;
+    margin-left: 150px;
+    text-align: center;
+}
+#section{
+    padding-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    list-style: none;    
+}
+#section li{
+    flex: auto;
+    text-align: center;
+}
+#section a{
+    color: blue;
+    text-decoration: none;
+    line-height: 1;
+}
+.texto{
+    width: 400px;
+    height: 40px;
+    background-color: red;
+    color: white;    
+}
+#textosec1{
+    line-height: 1.5;
+}
+#textosec2{
+    line-height: 3;
+}
+#pregunta{
+    padding-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    list-style: none;
+    display: flex;
+}
+#pregunta a{
+    color: white;
+    text-decoration: none;
+    line-height: 2;
+}
+#pregunta li{
+    flex: auto;
+    text-align: center;
+}
